@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import FirstSection from './Component/FirstSection';
 import SecondSection from './Component/SecondSection';
 import ThirdSection from './Component/ThirdSection';
+import FourthSection from './Component/FourthSection';
 
 
 export default  function App() {
@@ -11,6 +12,7 @@ export default  function App() {
       <FirstSection/>
       <SecondSection/>
       <ThirdSection/>
+      <FourthSection/>
          </View>
   );
 }
